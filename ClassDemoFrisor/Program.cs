@@ -39,6 +39,7 @@ Console.WriteLine(booking);
 try
 {
     Employee findesIkke = catalog.GetByPhoneId("00000000");
+    Console.WriteLine("Peter was here");
 }
 catch(KeyNotFoundException knfe)
 {
